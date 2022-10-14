@@ -1,2 +1,2 @@
 # My_personal_website
-you can view my personal website, but it is not complete yet.
+you can review my personal website, but it is not complete yet.
