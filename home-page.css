@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Lobster&family=Open+Sans:ital,wght@1,300&family=Poppins:wght@400;500&family=Raleway&family=Roboto:wght@400;500&display=swap%27');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav-main{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px 0;
+    line-height: 20px;
+}
+
+.nav-active{
+    font-weight: 700;
+}
+
+.nav-item:hover{
+     color: #22b3b3;
+
+}
+
+.bio{
+    display: flex;
+    gap: 10%;
+}
+
+.img-avatar > img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 50%;
+    border: 5px solid #22b3b3;
+}
+
+.about-me h1{
+    color:#22b3b3;
+    font-size: 28px;
+}
+
+.about-me > p{
+    width: 80%;
+}
+
+
+
+
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #22b3b3;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #22b3b3;
+}
+
+
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0 0 0;
+}
+
+.career-path{
+    width: 50%;
+}
+
+
+
+footer > p{
+    padding: 20px 0;
+    font-size: 16px;
+    text-align: center;
+    color: #22b3b3;
+    border-top: 1px dashed black;
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .skills {
+        flex-direction: column;
+    }
+  }
