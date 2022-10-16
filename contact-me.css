@@ -1,0 +1,61 @@
+.comments{
+    width: 100%;
+}
+
+form{
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+textarea{
+    width: 100%;
+    height: 90px;
+    resize: none;
+    padding: 8px 12px;
+    border: 2px solid #ffbd03;
+    border-radius: 4px;
+}
+
+input{
+    width: 100%;
+    padding: 8px 12px;
+    border: 2px solid #ffbd03;
+    border-radius: 4px;
+}
+
+
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 0 0 8px 0;
+    width: 60%;
+}
+
+hr.hr{
+    width: 80%;
+    text-align: center;
+    border: 5px dashed orangered;
+}
+
+
+.btn-submit{
+    margin: 10px 0 0 15px;
+    padding: 8px 17px;
+    background-color:  #22b3b3;
+    border: none;
+    color: white;
+    line-height: 25px;
+}
+
+.btn-submit:hover{
+    background-color: #4681f4;
+}

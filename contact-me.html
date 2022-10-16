@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home-page.css">
+    <link rel="stylesheet" href="contact-me.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header class="navbar">
+        <ul class="nav-main">
+          <li class="nav-item"><a href="home-page.html">Home</a></li>
+          <li class="nav-item"><a  href="education.html">Education</a></li>
+          <li class="nav-active nav-item"><a  href="contact-me.html">Contact Me</a></li>
+          <li class="nav-item"><a href="digital-card.html">My Digital Card</a></li>
+        </ul>
+
+      </header>
+    <section class="comments">
+        <form action="mailto:naliyev7642@ada.edu.az" method="post" enctype="text/plain">
+            <div class="flex">
+                <label for="Subject">Subject:</label>
+                <input name="Subject" type="text" placeholder="Subject"/>
+            </div>
+            <div class="flex">
+                <label for="Email">Email:</label>
+                <input name="Email" type="email" placeholder="Email"/>
+            </div>
+            <div class="flex">
+                <label for="Message">Message:</label>
+                <textarea name="Message"></textarea>
+            </div>
+            <div class="flex">
+                <input type="submit" value="Send" class="btn-submit" >
+            </div>
+        </form>
+    </section>
+</body>
+</html>
