@@ -1,125 +1,91 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Lobster&family=Open+Sans:ital,wght@1,300&family=Poppins:wght@400;500&family=Raleway&family=Roboto:wght@400;500&display=swap%27');
+<!DOCTYPE html>
+<html lang="en">
 
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
-
-}
-
-.container{
-    width: 85%;
-    margin: 0 auto;
-}
-a{
-    text-decoration: none;
-    color: black;
-}
-.nav-main{
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    padding: 20px 0;
-    line-height: 20px;
-}
-
-.nav-active{
-    font-weight: 700;
-}
-
-.nav-item:hover{
-     color: #22b3b3;
-
-}
-
-.bio{
-    display: flex;
-    gap: 10%;
-}
-
-.img-avatar > img{
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    object-position: center top;
-    border-radius: 50%;
-    border: 5px solid #22b3b3;
-}
-
-.about-me h1{
-    color:#22b3b3;
-    font-size: 28px;
-}
-
-.about-me > p{
-    width: 80%;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home-page.css">
+</head>
 
 
+<body>
+    <div class="container">
+        <section class="navbar">
+            <ul class="nav-main">
+                <li class="nav-item nav-active"><a href="home-page.html" target="_blank" rel="noopener noreferrer">Home</a></li>
+                <li class="nav-item"><a href="education.html" target="_blank" rel="noopener noreferrer">Education</a></li>
+                <li class="nav-item"><a href="contact-me.html" target="_blank" rel="noopener noreferrer">Contact me</a></li>
+                <li class="nav-item"><a href="digital-card.html" target="_blank" rel="noopener noreferrer">My Digital Card</a></li>
+            </ul>
+        </section>
+        <section class="bio">
+            <div class="img-avatar">
+                <img src="assets/Profile_photo.jpg" alt="Profile_photo" class="">
+
+            </div>
+            <div class="about-me">
+                <h1>Welcome to hell!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolorem sit, fuga
+                    veniam illo quibusdam magni inventore similique dicta minus
+                    at nostrum adipisci, nesciunt officia! Omnis quam reiciendis iusto cupiditate?</p>
+            </div>
+        </section>
+        <section class="skills">
+            <div class="main-courses">
+                <table class="styled-table">
+                    <thead>
+                        <tr>
+                            <th>Course Name</th>
+                            <th>Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> Programming Principles 1</td>
+                            <td>A</td>
+                        </tr>
+                        <tr>
+                            <td>Programming Principles 2</td>
+                            <td>A</td>
+                        </tr>
+                        <tr>
+                            <td>Software Engineering</td>
+                            <td>A-</td>
+                        </tr>
+                        <tr>
+                            <td>Data Structure</td>
+                            <td>B+</td>
+                        </tr>
+                        <tr>
+                            <td>Intro to ICT & Engineering</td>
+                            <td>C</td>
+                        </tr>
+                        <tr>
+                            <td> Linear Algebra</td>
+                            <td>B-</td> 
+                        </tr>
+                        <tr>
+                            <td>Probability and Statistics</td>
+                            <td>B</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="career-path">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit 
+                    incidunt, quis in, culpa animi nisi fugiat et do
+                    lorum nesciunt odit, sed aperiam amet nihil nostrum. Temp
+                    ore provident sequi corporis facere?</p>
+            </div>
+        </section>
+        <footer>
+            <p>© 2022 Nurhan Aliyev</p>
+          </footer>
 
 
+    </div>
+</body>
 
-.styled-table {
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 0.9em;
-    font-family: sans-serif;
-    min-width: 400px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-}
-
-.styled-table thead tr {
-    background-color: #22b3b3;
-    color: #ffffff;
-    text-align: left;
-}
-
-.styled-table th,
-.styled-table td {
-    padding: 12px 15px;
-}
-
-.styled-table tbody tr {
-    border-bottom: 1px solid #dddddd;
-}
-
-.styled-table tbody tr:nth-of-type(even) {
-    background-color: #f3f3f3;
-}
-
-.styled-table tbody tr:last-of-type {
-    border-bottom: 2px solid #22b3b3;
-}
-
-
-
-.skills{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 50px 0 0 0;
-}
-
-.career-path{
-    width: 50%;
-}
-
-
-
-footer > p{
-    padding: 20px 0;
-    font-size: 16px;
-    text-align: center;
-    color: #22b3b3;
-    border-top: 1px dashed black;
-}
-
-
-
-
-@media screen and (max-width: 1000px) {
-    .skills {
-        flex-direction: column;
-    }
-  }
+</html>
