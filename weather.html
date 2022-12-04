@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weather-style.css">
+</head>
+<body>
+    <section>
+    <h2><em>Weather app</em></h2>
+
+    <label for="Weather">Which way do you want to search?</label>
+    <br><br>
+    <select name="way" id="ways">
+        <option value="cityName">name of the city</option>
+        <option value="latLong">latitude and longitude</option>
+        <option value="location">My Location</option>
+    </select>
+    <br><br>
+
+
+    <div id="inputs">
+    
+        
+    </div>
+    <br>
+   
+    <div id="weather-info">
+        <div class="weather-item">
+            <label for="">City name:</label>
+            <p id = "city-name"></p>
+        </div>
+        <div class="weather-item">
+            <label for="">Full country name:</label>
+            <p id = "country_name"></p>
+        </div>
+        <div class="weather-item">
+            <label for="">Weather condition:</label>
+            <p id = "w-condition"></p>
+        </div>
+        <div class="weather-item">
+            <label for="">Description:</label>
+            <p id = "description"></p>
+        </div>
+        <div class="weather-item temp">
+            <label for="">Temperature:</label>
+            <p id = "temperature"></p>
+            <label for="">Temperature minimum:</label>
+            <p id = "temperature-min"></p>
+            <label for="">Temperature-maximum:</label>
+            <p id = "temperature-max"></p>
+            <label for="">Temperature feels like:</label>
+            <p id = "temperature-f-like"></p>
+        </div>
+        <div class="weather-item">
+            <label for="">humidity:</label>
+            <p id = "humidity"></p>
+        </div>
+        <div class="weather-item">
+            <label for="">pressure</label>
+            <p id = "pressure"></p>
+        </div>
+        <div class="weather-item">
+            <label for="">wind speed and direction:</label>
+            <p id = "wind-spped"></p>
+        </div>
+        <div class="weather-item">
+            <label for="">local date and tiem:</label>
+            <p id = "local-date"></p>
+        </div>
+        
+        
+       
+        
+       
+      
+        
+       
+       
+    </div>
+        
+    </section>
+
+
+
+    <script src="weather.js"></script>
+
+    
+</body>
+</html>
