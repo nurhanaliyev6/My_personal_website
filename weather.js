@@ -67,7 +67,6 @@ const displaySearch = () => {
       break;
     case input_selection.value === "location":
       inputs_adding.appendChild(my_location_button);
-      console.log("my lcoation");
       break;
     default:
       break;
