@@ -101,7 +101,7 @@ const getLocation = () => {
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(showPosition);
   } else {
-    console.log("not supported");
+    console.log("does not get location");
   }
 };
 
@@ -139,7 +139,6 @@ const fetchByCoordinate = (latitude, longitude) => {
   )
     .then((response) => response.json())
     .then((data) => {
-      console.log(data);
       displayData(data);
     });
 };
@@ -150,7 +149,6 @@ const fetchByCityName = (city) => {
   )
     .then((response) => response.json())
     .then((data) => {
-      console.log(data);
       displayData(data);
     });
 };
@@ -158,7 +156,6 @@ const fetchByCityName = (city) => {
 const convertToCountryName = async (code) => {
   const response = await fetch(`https://restcountries.com/v3.1/alpha/${code}`);
   const data = await response.json();
-  console.log(data[0].name.common)
   return data[0].name.common;
 };
 
